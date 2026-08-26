@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Md. Mahmudul Hasan | Software Engineer</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .items-stack {
+            display: flex;
+            flex-direction: column;
+            gap: 32px !important;
+        }
+        .item-card {
+            padding: 32px !important;
+            margin-bottom: 28px;
+        }
+        .item-card:last-child {
+            margin-bottom: 0;
+        }
+    </style>
+    <base target="_blank">
 </head>
 <body>
 
@@ -19,7 +34,7 @@
                     </div>
                     <div class="title-area">
                         <h1 id="dev-name">Md. Mahmudul Hasan <span class="verified-badge" title="Verified Engineering Profile">✓</span></h1>
-                        <div class="subtitle">Aspiring Software Engineer (Backend)• Electronics & Communication Engineering</div>
+                        <div class="subtitle">Aspiring Software Engineer (Backend) • Electronics & Communication Engineering</div>
                     </div>
                 </div>
                 <div class="contact-grid">
@@ -86,6 +101,7 @@
                         <li>Node.js</li>
                         <li>NestJS</li>
                         <li>Express.js</li>
+                        <li>Supabase (BaaS)</li>
                     </ul>
                 </div>
                 <div class="skill-card">
@@ -94,6 +110,7 @@
                         <li>OOP Architecture</li>
                         <li>Relational Database (PostgreSQL)</li>
                         <li>RESTful APIs Engine</li>
+                        <li>Responsive Web Design</li>
                     </ul>
                 </div>
                 <div class="skill-card">
@@ -110,7 +127,42 @@
         <section id="projects">
             <h2>Production-Grade Engineering</h2>
             <div class="items-stack">
-                
+
+                <!-- Project 1 -->
+                <div class="item-card">
+                    <div class="item-header" style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 12px;">
+                        <div class="item-title-group">
+                            <span class="project-verified">⚡</span>
+                            <div class="item-title">ECRC Club — University Official Website</div>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+                            <span class="item-meta">Full-Stack Web Application</span>
+                            <a href="https://mahmudulkhan.netlify.app/" target="_blank" style="display: inline-flex; align-items: center; gap: 6px; color: #38bdf8; text-decoration: none; font-size: 0.85rem; font-weight: 600; padding: 6px 14px; background: rgba(56, 189, 248, 0.1); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 6px; transition: all 0.25s ease;">
+                                🌐 Live Demo
+                            </a>
+                        </div>
+                    </div>
+                    <ul class="item-desc-list">
+                        <li>Building the official website for my university club (ECRC) from scratch using semantic HTML5, modern CSS with Flexbox and Grid layouts, and vanilla JavaScript for DOM manipulation and interactive components.</li>
+                        <li>Integrated Supabase as the backend-as-a-service to handle dynamic content, storing club events, member data, and announcements with real-time database queries and secure client-side operations.</li>
+                        <li>Implemented fully responsive, mobile-first design principles ensuring consistent UI spacing, accessible navigation, and proper typography hierarchy across all device breakpoints.</li>
+                        <li>Structured the frontend codebase with modular vanilla JavaScript patterns, separating UI rendering logic from Supabase data-fetching layers for maintainable and scalable architecture.</li>
+                    </ul>
+                    <div class="architecture-highlight">
+                        <h4>Supabase-First Integration</h4>
+                        <p>Leveraged Supabase client library within a static frontend architecture to achieve dynamic data capabilities without a dedicated Node.js backend, demonstrating practical understanding of BaaS patterns and API consumption.</p>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Supabase</span>
+                        <span class="tag">Responsive Design</span>
+                        <span class="tag">DOM Manipulation</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
                 <div class="item-card">
                     <div class="item-header">
                         <div class="item-title-group">
@@ -132,11 +184,11 @@
                         <span class="tag">Node.js</span>
                         <span class="tag">Express.js</span>
                         <span class="tag">Socket.IO</span>
-                        
                         <span class="tag">Real-Time Streams</span>
                     </div>
                 </div>
 
+                <!-- Project 3 -->
                 <div class="item-card">
                     <div class="item-header">
                         <div class="item-title-group">
