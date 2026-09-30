@@ -3,54 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Md. Mahmudul Hasan | Software Engineer</title>
+    <title>Md. Mahmudul Hasan | Backend Engineer</title>
+    <meta name="description" content="Portfolio of Md. Mahmudul Hasan, an Electronics and Communication Engineering student and backend developer working with Node.js, Express, NestJS, and PostgreSQL.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Md. Mahmudul Hasan | Backend Developer">
+    <meta property="og:description" content="Backend developer and ECE student. Node.js, Express, NestJS, PostgreSQL, Supabase.">
     <link rel="stylesheet" href="style.css">
     <style>
-        .items-stack {
-            display: flex;
-            flex-direction: column;
-            gap: 32px !important;
+        .items-stack { display: flex; flex-direction: column; gap: 32px; }
+        .item-card { padding: 32px; }
+        .item-header-row { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 12px; }
+        .item-header-actions { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+        .demo-link {
+            display: inline-flex; align-items: center; gap: 6px;
+            color: #38bdf8; text-decoration: none; font-size: 0.85rem; font-weight: 600;
+            padding: 6px 14px; background: rgba(56, 189, 248, 0.1);
+            border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 6px;
+            transition: all 0.25s ease;
         }
-        .item-card {
-            padding: 32px !important;
-            margin-bottom: 28px;
-        }
-        .item-card:last-child {
-            margin-bottom: 0;
-        }
+        .demo-link:hover { background: rgba(56, 189, 248, 0.2); }
     </style>
-    <base target="_blank">
 </head>
 <body>
 
     <div class="container">
-        
+
         <header>
             <div class="header-content">
                 <div class="profile-area">
                     <div class="img-wrapper">
-                        <img src="PXL_20230422_100655266-01-01.jpeg" alt="Md. Mahmudul Hasan" class="profile-img">
-                        <span class="status-indicator" title="System Active & Open for Opportunities"></span>
+                        <!-- Rename your photo file to profile.jpeg to match this path -->
+                        <img src="profile.jpeg" alt="Portrait of Md. Mahmudul Hasan" class="profile-img">
                     </div>
                     <div class="title-area">
-                        <h1 id="dev-name">Md. Mahmudul Hasan <span class="verified-badge" title="Verified Engineering Profile">✓</span></h1>
-                        <div class="subtitle">Aspiring Software Engineer (Backend) • Electronics & Communication Engineering</div>
+                        <h1 id="dev-name">Md. Mahmudul Hasan</h1>
+                        <div class="subtitle">Backend Engineer • Electronics &amp; Communication Engineering Student</div>
                     </div>
                 </div>
                 <div class="contact-grid">
                     <a href="mailto:mahmudul6244@gmail.com" class="contact-card-link">
                         <span class="icon">📧</span> <span class="text">mahmudul6244@gmail.com</span>
                     </a>
-                    <div class="contact-card-link">
+                    <a href="tel:+8801717622803" class="contact-card-link">
                         <span class="icon">📞</span> <span class="text">01717622803</span>
-                    </div>
+                    </a>
                     <div class="contact-card-link">
                         <span class="icon">📍</span> <span class="text">Dhaka, Bangladesh</span>
                     </div>
-                    <a href="https://linkedin.com/in/mahmudul-hasan-b67a52324" target="_blank" class="contact-card-link">
-                        <span class="icon">🔗</span> <span class="text">linkedin.com/in/mahmudul-hasan</span>
+                    <a href="https://linkedin.com/in/mahmudul-hasan-b67a52324" target="_blank" rel="noopener noreferrer" class="contact-card-link">
+                        <span class="icon">🔗</span> <span class="text">LinkedIn</span>
                     </a>
-                    <a href="https://github.com/Mahmudul65" target="_blank" class="contact-card-link">
+                    <a href="https://github.com/Mahmudul65" target="_blank" rel="noopener noreferrer" class="contact-card-link">
                         <span class="icon">🐙</span> <span class="text">github.com/Mahmudul65</span>
                     </a>
                 </div>
@@ -58,34 +61,34 @@
         </header>
 
         <section id="summary">
-            <h2>Professional Summary</h2>
+            <h2>Summary</h2>
             <p class="summary-text">
-                Highly motivated Electronic and Communication Engineering student with a solid foundation in software development principles and relational databases. Proficient in designing backend architectures, working with Object-Oriented Programming (OOP) architectures, and building microcontrollers pipelines. Proven track record of proactively mastering modern architectures, distributed caching, and clean api designs to deliver performant and industry-grade application infrastructure.
+                Electronics and Communication Engineering student focused on backend development. I build REST APIs with Node.js, Express, and NestJS, design relational schemas in PostgreSQL, and apply object-oriented principles to keep code organized and testable. I am also completing a backend engineering training program and studying system design fundamentals such as caching, scaling, and replication.
             </p>
         </section>
 
         <section id="research-lab">
-            <h2>Advanced Core Specialization & Focus</h2>
+            <h2>Current Focus</h2>
             <div class="research-container">
                 <div class="research-card">
                     <div class="research-header">
                         <span class="research-icon">🧠</span>
-                        <h3>System Design & Distributed Infrastructure</h3>
+                        <h3>System Design</h3>
                     </div>
-                    <p>Actively deep-diving into foundational distributed systems patterns, data-intensive application architectures, scaling strategies, replication models, strategies for low latency data ingestion, and distributed caching configurations.</p>
+                    <p>Studying distributed systems fundamentals: caching, scaling strategies, replication, and data ingestion patterns.</p>
                 </div>
                 <div class="research-card">
                     <div class="research-header">
                         <span class="research-icon">🤖</span>
-                        <h3>AI Pipelines & Computational Models</h3>
+                        <h3>AI Integration</h3>
                     </div>
-                    <p>Exploring application-level AI integrations, algorithmic frameworks, efficient prompt engineering telemetry, data pre-processing channels, and leveraging intelligent layers within modern software backend infrastructures.</p>
+                    <p>Learning how to integrate AI APIs into backend services, including prompt design and data pre-processing.</p>
                 </div>
             </div>
         </section>
 
         <section id="skills">
-            <h2>Technical Core Spectrum</h2>
+            <h2>Skills</h2>
             <div class="skills-grid">
                 <div class="skill-card">
                     <h3>Languages</h3>
@@ -96,69 +99,62 @@
                     </ul>
                 </div>
                 <div class="skill-card">
-                    <h3>Backend Stack</h3>
+                    <h3>Backend</h3>
                     <ul class="skill-list">
                         <li>Node.js</li>
                         <li>NestJS</li>
                         <li>Express.js</li>
-                        <li>Supabase (BaaS)</li>
+                        <li>Supabase</li>
                     </ul>
                 </div>
                 <div class="skill-card">
-                    <h3>Core Methodologies</h3>
+                    <h3>Concepts</h3>
                     <ul class="skill-list">
-                        <li>OOP Architecture</li>
-                        <li>Relational Database (PostgreSQL)</li>
-                        <li>RESTful APIs Engine</li>
+                        <li>Object-Oriented Programming</li>
+                        <li>PostgreSQL</li>
+                        <li>REST API Design</li>
                         <li>Responsive Web Design</li>
                     </ul>
                 </div>
                 <div class="skill-card">
-                    <h3>Developer Ecosystem</h3>
+                    <h3>Tools</h3>
                     <ul class="skill-list">
                         <li>Git / GitHub</li>
                         <li>VS Code / Cursor</li>
-                        <li>Hardware Prototyping</li>
+                        <li>Microcontroller prototyping</li>
                     </ul>
                 </div>
             </div>
         </section>
 
         <section id="projects">
-            <h2>Production-Grade Engineering</h2>
+            <h2>Projects</h2>
             <div class="items-stack">
 
                 <!-- Project 1 -->
                 <div class="item-card">
-                    <div class="item-header" style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 12px;">
+                    <div class="item-header item-header-row">
                         <div class="item-title-group">
-                            <span class="project-verified">⚡</span>
-                            <div class="item-title">ECRC Club — University Official Website</div>
+                            <div class="item-title">ECRC Club Website</div>
                         </div>
-                        <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+                        <div class="item-header-actions">
                             <span class="item-meta">Full-Stack Web Application</span>
-                            <a href="https://mahmudulkhan.netlify.app/" target="_blank" style="display: inline-flex; align-items: center; gap: 6px; color: #38bdf8; text-decoration: none; font-size: 0.85rem; font-weight: 600; padding: 6px 14px; background: rgba(56, 189, 248, 0.1); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 6px; transition: all 0.25s ease;">
-                                🌐 Live Demo
-                            </a>
+                            <a href="https://mahmudulkhan.netlify.app/" target="_blank" rel="noopener noreferrer" class="demo-link">🌐 Live Demo</a>
+                            <!-- Add: <a href="YOUR_REPO_URL" ... class="demo-link">GitHub</a> -->
                         </div>
                     </div>
                     <ul class="item-desc-list">
-                        <li>Building the official website for my university club (ECRC) from scratch using semantic HTML5, modern CSS with Flexbox and Grid layouts, and vanilla JavaScript for DOM manipulation and interactive components.</li>
-                        <li>Integrated Supabase as the backend-as-a-service to handle dynamic content, storing club events, member data, and announcements with real-time database queries and secure client-side operations.</li>
-                        <li>Implemented fully responsive, mobile-first design principles ensuring consistent UI spacing, accessible navigation, and proper typography hierarchy across all device breakpoints.</li>
-                        <li>Structured the frontend codebase with modular vanilla JavaScript patterns, separating UI rendering logic from Supabase data-fetching layers for maintainable and scalable architecture.</li>
+                        <li>Building the official website for my university club (ECRC) with semantic HTML5, CSS (Flexbox and Grid), and vanilla JavaScript.</li>
+                        <li>Using Supabase as the backend to store and serve club events, member data, and announcements.</li>
+                        <li>Implemented a responsive, mobile-first layout with accessible navigation and consistent typography.</li>
+                        <li>Separated UI rendering code from Supabase data-fetching code to keep the codebase maintainable.</li>
                     </ul>
-                    <div class="architecture-highlight">
-                        <h4>Supabase-First Integration</h4>
-                        <p>Leveraged Supabase client library within a static frontend architecture to achieve dynamic data capabilities without a dedicated Node.js backend, demonstrating practical understanding of BaaS patterns and API consumption.</p>
-                    </div>
                     <div class="tags">
                         <span class="tag">HTML5</span>
                         <span class="tag">CSS3</span>
                         <span class="tag">JavaScript</span>
                         <span class="tag">Supabase</span>
                         <span class="tag">Responsive Design</span>
-                        <span class="tag">DOM Manipulation</span>
                     </div>
                 </div>
 
@@ -166,25 +162,21 @@
                 <div class="item-card">
                     <div class="item-header">
                         <div class="item-title-group">
-                            <span class="project-verified">⚡</span>
                             <div class="item-title">User-Agent Analytics Tool</div>
                         </div>
-                        <span class="item-meta">Distributed Analytics Platform</span>
+                        <span class="item-meta">Real-Time Analytics Dashboard</span>
                     </div>
                     <ul class="item-desc-list">
-                        <li>Built a robust backend monitoring infrastructure using Node.js and Express to parse and categorize complex incoming multi-client requests (including browsers, Postman, and curl clients).</li>
-                        <li>Implemented responsive real-time data stream visualizations by integrating Socket.IO events and Chart.js reporting configurations for real-time traffic dashboards.</li>
-                        <li>Optimized routing nodes and data structures adhering strictly to professional programming architectures.</li>
+                        <li>Built a Node.js and Express backend that parses incoming requests and classifies clients such as browsers, Postman, and curl.</li>
+                        <li>Streamed live traffic data to a Chart.js dashboard using Socket.IO.</li>
+                        <li>Organized routes and data structures into clear, reusable modules.</li>
                     </ul>
-                    <div class="architecture-highlight">
-                        <h4>Architectural Solution</h4>
-                        <p>Designed to mitigate ingestion latency bottlenecks by restructuring payload parsing schemas, optimizing telemetry read paths for multi-client concurrent stream evaluations.</p>
-                    </div>
+                    <!-- Add: GitHub link -->
                     <div class="tags">
                         <span class="tag">Node.js</span>
                         <span class="tag">Express.js</span>
                         <span class="tag">Socket.IO</span>
-                        <span class="tag">Real-Time Streams</span>
+                        <span class="tag">Chart.js</span>
                     </div>
                 </div>
 
@@ -192,26 +184,23 @@
                 <div class="item-card">
                     <div class="item-header">
                         <div class="item-title-group">
-                            <span class="project-verified">⚡</span>
-                            <div class="item-title">IMEI Verification System (Backend API)</div>
+                            <div class="item-title">IMEI Verification API</div>
                         </div>
-                        <span class="item-meta">Security & Validation Engine</span>
+                        <span class="item-meta">Backend API</span>
                     </div>
                     <ul class="item-desc-list">
-                        <li>Designed and deployed a highly critical backend system inspired by national device registration workflows, safely handling hardware device authorization, temporary blocking, and unregistration lifecycles.</li>
-                        <li>Identified and resolved system flaws regarding invalid inputs (e.g., repeating zero inputs acceptance) and structurally optimized payload validation mechanisms.</li>
-                        <li>Structured highly dynamic endpoints using JavaScript with a strict adherence to decoupled Object-Oriented Programming (OOP) models.</li>
+                        <li>Designed a backend API inspired by national device registration workflows, covering device registration, temporary blocking, and unregistration.</li>
+                        <li>Fixed validation gaps, such as accepting IMEIs made of repeated zeros, and tightened request payload validation.</li>
+                        <li>Structured the endpoints with an object-oriented design that separates validation, business logic, and data access.</li>
+                        <li>Implemented the Luhn algorithm to check IMEI validity before any database operation runs.</li>
                     </ul>
-                    <div class="architecture-highlight">
-                        <h4>Algorithmic Integrity</h4>
-                        <p>Implemented the mathematical Luhn Algorithm verification check directly within the validation filter pipeline to validate structural device compliance before hitting database transactional layers.</p>
-                    </div>
+                    <!-- Add: GitHub link -->
                     <div class="tags">
                         <span class="tag">JavaScript</span>
-                        <span class="tag">OOP Design Patterns</span>
+                        <span class="tag">OOP</span>
                         <span class="tag">Luhn Algorithm</span>
-                        <span class="tag">Data Validation</span>
-                        <span class="tag">API Security</span>
+                        <span class="tag">Input Validation</span>
+                        <span class="tag">REST API</span>
                     </div>
                 </div>
 
@@ -219,28 +208,28 @@
         </section>
 
         <section id="education">
-            <h2>Verified Credentials & Timeline</h2>
+            <h2>Education &amp; Training</h2>
             <div class="items-stack">
-                
+
                 <div class="item-card education-card">
                     <div class="item-header">
-                        <div class="item-title">B.Sc. in Electronics and Communication Engineering (ECE)</div>
+                        <div class="item-title">B.Sc. in Electronics and Communication Engineering</div>
                         <span class="item-meta">2024 – Present</span>
                     </div>
-                    <div class="item-sub-meta">Institute of Science and Technology (IST) • Affiliated with National University, Bangladesh <span class="edu-trust-badge">Institutional Affiliation Active</span></div>
+                    <div class="item-sub-meta">Institute of Science and Technology (IST) • National University, Bangladesh</div>
                     <p class="education-details">
-                        Core focus lies at the integration layer of software microservices, electronic data capture systems, network communications, and structural computing models.
+                        Coursework spans electronics, communication systems, and computing, alongside self-directed work in software development.
                     </p>
                 </div>
 
                 <div class="item-card education-card">
                     <div class="item-header">
-                        <div class="item-title">Professional Backend Engineering Training Program</div>
-                        <span class="item-meta">Continuous Specialization</span>
+                        <div class="item-title">Backend Engineering Training Program</div>
+                        <span class="item-meta">Ongoing</span>
                     </div>
                     <div class="item-sub-meta">Pocket School</div>
                     <p class="education-details">
-                        Advanced industry-standard training centered around building highly enterprise-scale backend services, application load distribution, and modular coding design frameworks.
+                        Training in backend service design, scalable application structure, and modular code organization.
                     </p>
                 </div>
 
@@ -248,7 +237,7 @@
         </section>
 
         <footer>
-            <p>&copy; 2026 Md. Mahmudul Hasan. Verified Immutable Architecture Profile.</p>
+            <p>&copy; 2026 Md. Mahmudul Hasan</p>
         </footer>
 
     </div>
